@@ -14,6 +14,7 @@ import csv
 import os
 import datetime
 
+# minutes = time interval between data collection iterations
 def colect_data(minutes=0):
     while True:
         CPU = psutil.cpu_percent(4)
