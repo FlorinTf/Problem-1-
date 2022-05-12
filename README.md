@@ -4,8 +4,9 @@ Implement a program that will launcha specified process and periodically (with a
 
 •	CPU usage (percent);
 
-•	Memory consumption: Working Set and Private Bytes (for Windows systems)or Resident Set Size and Virtual Memory Size (for Linux systems);
+•	Memory consumption: Working Set and Private Bytes (for Windows systems);
 
-•	Number of open handles (for Windows systems) or file descriptors (for Linux systems).
+•	Number of open handles (for Windows systems).
 
-Data collection should be performed all the time the process is running. Path to the executable file for the process and time interval between datac ollection iterations should be provided by user. Collected data should be stored on the disk. Format of stored data should support automated parsing to potentially allow, for example, drawing of charts.
+Data collection should be performed all the time the process is running. Path to the executable file for the process and time interval between datac ollection iterations should be provided by user. 
+![Alt Text](https://github.com/FlorinTf/Problem-1-/blob/main/Windows-Task-Manager-App..png)
